@@ -1,0 +1,1411 @@
+fileFormatVersion: 2
+guid: 4ab24ae07fc0b4ab19c34c2b477e0348
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3998237708936341657
+    second: karts_0
+  - first:
+      213: 9045133135949141148
+    second: karts_1
+  - first:
+      213: -564043491988686182
+    second: karts_2
+  - first:
+      213: -3624496496368371582
+    second: karts_3
+  - first:
+      213: 5436785919311319379
+    second: karts_4
+  - first:
+      213: 909548061707240530
+    second: karts_5
+  - first:
+      213: 2143007629207902794
+    second: karts_6
+  - first:
+      213: 2374473475657365619
+    second: karts_7
+  - first:
+      213: 4567279565544410936
+    second: karts_8
+  - first:
+      213: -385708258895282758
+    second: karts_9
+  - first:
+      213: 7689557474547402747
+    second: karts_10
+  - first:
+      213: -5356124355847148898
+    second: karts_11
+  - first:
+      213: -6309949481228328652
+    second: karts_12
+  - first:
+      213: -187716646190778508
+    second: karts_13
+  - first:
+      213: 5166764474215755394
+    second: karts_14
+  - first:
+      213: -3918646811882960495
+    second: karts_15
+  - first:
+      213: -5894018269010352272
+    second: karts_16
+  - first:
+      213: 1221582079037518480
+    second: karts_17
+  - first:
+      213: 2287058427850297601
+    second: karts_18
+  - first:
+      213: 5170858037285497865
+    second: karts_19
+  - first:
+      213: 8895687182363627739
+    second: karts_20
+  - first:
+      213: 4793458675988424977
+    second: karts_21
+  - first:
+      213: 3610257237586556027
+    second: karts_22
+  - first:
+      213: 2419294714760415507
+    second: karts_23
+  - first:
+      213: 7792851594940943987
+    second: karts_24
+  - first:
+      213: 745288387193816653
+    second: karts_25
+  - first:
+      213: -2471272379319379693
+    second: karts_26
+  - first:
+      213: 3673991115489666825
+    second: karts_27
+  - first:
+      213: 5565777960812468828
+    second: karts_28
+  - first:
+      213: -5753943296092969934
+    second: karts_29
+  - first:
+      213: 1300121738549140355
+    second: karts_30
+  - first:
+      213: -8430950823177870888
+    second: karts_31
+  - first:
+      213: -777994784430174701
+    second: karts_32
+  - first:
+      213: -4555737926407819397
+    second: karts_33
+  - first:
+      213: 3305619265088934885
+    second: karts_34
+  - first:
+      213: 8124926330418992750
+    second: karts_35
+  - first:
+      213: 1688929629203272842
+    second: karts_36
+  - first:
+      213: -7469508014807733598
+    second: karts_37
+  - first:
+      213: 8317516379469286348
+    second: karts_38
+  - first:
+      213: -4942206370568916988
+    second: karts_39
+  - first:
+      213: 3445270122285173913
+    second: karts_40
+  - first:
+      213: 274615856211208666
+    second: karts_41
+  - first:
+      213: 4722805524844711322
+    second: karts_42
+  - first:
+      213: -4616114067426928380
+    second: karts_43
+  - first:
+      213: -84559912732583563
+    second: karts_44
+  - first:
+      213: 8417011439795200866
+    second: karts_45
+  - first:
+      213: -1830529680753721298
+    second: karts_46
+  - first:
+      213: -4202186500118362801
+    second: karts_47
+  - first:
+      213: -601387175204992182
+    second: karts_48
+  - first:
+      213: 6300038871492999521
+    second: karts_49
+  - first:
+      213: -8447397528674578300
+    second: karts_50
+  - first:
+      213: 455678655358589191
+    second: karts_51
+  - first:
+      213: -6971800360843666514
+    second: karts_52
+  - first:
+      213: 6072408354481334490
+    second: karts_53
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: karts_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 589
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f73c155f05384200beb981f5c23791e
+      internalID: -3998237708936341657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_1
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2746
+        width: 625
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdc02c11dc324bd4827b224964cb7b1
+      internalID: 9045133135949141148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_2
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2746
+        width: 637
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f65d9ca70ac485ba49f588cbd534c4
+      internalID: -564043491988686182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_3
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 3124
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4fa3551811c4b5f8f1fafd4ff774f8
+      internalID: -3624496496368371582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_4
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2746
+        width: 637
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925add494ae0a4dfca580ad8f20fab8a
+      internalID: 5436785919311319379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_5
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 2746
+        width: 641
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5864bfc3038ba49cd9996189285f46a0
+      internalID: 909548061707240530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_6
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 2746
+        width: 633
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4831b4867d9f64589851b9720e5b4158
+      internalID: 2143007629207902794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_7
+      rect:
+        serializedVersion: 2
+        x: 4420
+        y: 2746
+        width: 637
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e07c6490af40ffa23305bef4e7e4f
+      internalID: 2374473475657365619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_8
+      rect:
+        serializedVersion: 2
+        x: 5096
+        y: 2751
+        width: 565
+        height: 867
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de816fda1ad44cac9b606557ac59d6f
+      internalID: 4567279565544410936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_9
+      rect:
+        serializedVersion: 2
+        x: 5730
+        y: 2751
+        width: 568
+        height: 867
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b80910184e84cafaf2ebc591af58d3
+      internalID: -385708258895282758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_10
+      rect:
+        serializedVersion: 2
+        x: 6367
+        y: 2752
+        width: 569
+        height: 866
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4069fd4dc18a41f8a0ce81106138e00
+      internalID: 7689557474547402747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_11
+      rect:
+        serializedVersion: 2
+        x: 7003
+        y: 2751
+        width: 570
+        height: 867
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12de9083cf90e4d709d3325dbada4718
+      internalID: -5356124355847148898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_12
+      rect:
+        serializedVersion: 2
+        x: 7642
+        y: 2751
+        width: 565
+        height: 867
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3815ff101674364b559b88e8d191c4
+      internalID: -6309949481228328652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1829
+        width: 629
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a203e737c26c5455ea1400cf169ac00e
+      internalID: -187716646190778508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_14
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1829
+        width: 589
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f534442c0ee7461ba0453e4da933207
+      internalID: 5166764474215755394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_15
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1829
+        width: 637
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edbf327bff1c436a90301372d02df17
+      internalID: -3918646811882960495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_16
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1829
+        width: 625
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6248f5c7825364b08ad71db963900932
+      internalID: -5894018269010352272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_17
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 1828
+        width: 641
+        height: 885
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc172677a3eb4939a5fc27d3740855e
+      internalID: 1221582079037518480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_18
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1829
+        width: 625
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5a1f2ed380e4913b552d2ac3eb6dcf
+      internalID: 2287058427850297601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_19
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 1829
+        width: 637
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f2d045ef349465da4114df1be8919a
+      internalID: 5170858037285497865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_20
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 1829
+        width: 633
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3426bde8af45f4f13ae2134d1b514c03
+      internalID: 8895687182363627739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_21
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1829
+        width: 637
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed7e0de841a54064aead82fbb7d7ad2
+      internalID: 4793458675988424977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_22
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 1829
+        width: 637
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b34ae5a1300c47018193b4b6b3ab0e7
+      internalID: 3610257237586556027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_23
+      rect:
+        serializedVersion: 2
+        x: 6320
+        y: 1829
+        width: 625
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4231a3d89bc99471cb950f7d95e3c2a2
+      internalID: 2419294714760415507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_24
+      rect:
+        serializedVersion: 2
+        x: 6948
+        y: 1829
+        width: 641
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4391fca73ef47f8ae205ba6223410b
+      internalID: 7792851594940943987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_25
+      rect:
+        serializedVersion: 2
+        x: 7592
+        y: 1796
+        width: 619
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1e191b8500d42d997170437f026017
+      internalID: 745288387193816653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 581
+        height: 915
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd3b2cfbc04b4206b673e23dd970af8
+      internalID: -2471272379319379693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_27
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 913
+        width: 677
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5067f4a6d2653451b81fc4e72fb6bc94
+      internalID: 3673991115489666825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_28
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 913
+        width: 633
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5009e1940c940cd9e20c0663e8a630
+      internalID: 5565777960812468828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_29
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 913
+        width: 633
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fe50958ee894a9499b7ef908e0e190
+      internalID: -5753943296092969934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_30
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 913
+        width: 633
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec9c7f3cb0b468e898befa5efeacc3
+      internalID: 1300121738549140355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_31
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 913
+        width: 589
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f60735e3f65f4d8eb2e883ae6204983
+      internalID: -8430950823177870888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_32
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 902
+        width: 603
+        height: 889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008a21be1e658458792013d03f2118c4
+      internalID: -777994784430174701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_33
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 913
+        width: 633
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97da5fdefb524640a48d3a89f68aff4
+      internalID: -4555737926407819397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_34
+      rect:
+        serializedVersion: 2
+        x: 4448
+        y: 913
+        width: 637
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bed7b13fd9c641509821fa2001d0031
+      internalID: 3305619265088934885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_35
+      rect:
+        serializedVersion: 2
+        x: 5088
+        y: 913
+        width: 585
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a6e2acb756450a81e1f0440c3d46b
+      internalID: 8124926330418992750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_36
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 913
+        width: 637
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb2805c452884e68b8f73ee84bd9218
+      internalID: 1688929629203272842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_37
+      rect:
+        serializedVersion: 2
+        x: 6310
+        y: 913
+        width: 639
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d231519bf43942feb9e03d0a49d2425
+      internalID: -7469508014807733598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_38
+      rect:
+        serializedVersion: 2
+        x: 6952
+        y: 913
+        width: 637
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e2f36c6771a41878f79216a5f0ca02
+      internalID: 8317516379469286348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_39
+      rect:
+        serializedVersion: 2
+        x: 7592
+        y: 892
+        width: 619
+        height: 899
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f557a3757304cd5b0343187ce1c151
+      internalID: -4942206370568916988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 605
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2743ff6049fb4082a5c27ff68f72356
+      internalID: 3445270122285173913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_41
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 581
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e772120a5e34ff19b2adba4eea1f58
+      internalID: 274615856211208666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_42
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 622
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6cfb52103b44fc1a293b79a23be9e0
+      internalID: 4722805524844711322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_43
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 0
+        width: 620
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41309b04ba844122be6b89e01c2d4aa
+      internalID: -4616114067426928380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_44
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 0
+        width: 617
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4678c07c3543e49b2ad1ebacd960bcff
+      internalID: -84559912732583563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_45
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 0
+        width: 615
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c22daebda9647edbbb00047504c790
+      internalID: 8417011439795200866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_46
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 0
+        width: 612
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f56e479a8824c9da7da58180e6b278
+      internalID: -1830529680753721298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_47
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 0
+        width: 606
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eda3762f47ea46f58d36607195048ee
+      internalID: -4202186500118362801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_48
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 0
+        width: 603
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d86cfd7b8b67408788e42020f6da067
+      internalID: -601387175204992182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_49
+      rect:
+        serializedVersion: 2
+        x: 5704
+        y: 0
+        width: 601
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f075a90212e4adaa144cacb99de93c
+      internalID: 6300038871492999521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_50
+      rect:
+        serializedVersion: 2
+        x: 6344
+        y: 0
+        width: 598
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c54285647e144a27a1285991c007473
+      internalID: -8447397528674578300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_51
+      rect:
+        serializedVersion: 2
+        x: 6984
+        y: 0
+        width: 595
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f177142b39b40ccac0f80b757e27d6
+      internalID: 455678655358589191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_52
+      rect:
+        serializedVersion: 2
+        x: 7624
+        y: 0
+        width: 587
+        height: 884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45567474a3d5342448fbca2fe89d7de3
+      internalID: -6971800360843666514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karts_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2716
+        width: 612
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ab80d6dce72c5489d51696bd497444
+      internalID: 6072408354481334490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
