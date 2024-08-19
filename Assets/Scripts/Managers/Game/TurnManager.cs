@@ -23,7 +23,7 @@ public class TurnManager
         table = new Table();
         biggestCard = new Card(0, 0);
 
-        startTurn = 0;
+        startTurn = 1;
         currentTurn = startTurn;
     }
 
@@ -108,7 +108,7 @@ public class TurnManager
         // EĞER KAZANAN OYUNCU İSE VE İLK TURSA
         if (this.lastWinner as User != null && ClassicGame.instance.firstTableClear == 1)
         {
-            ClassicGame.instance.IlkUcKart();
+            ClassicGame.instance.FirstThreeCard();
         }
         GameAnimation.instance.TurnWin(this);
         

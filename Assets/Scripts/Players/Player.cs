@@ -23,7 +23,9 @@ public abstract class Player : MonoBehaviour
         set
         {
             rank = value;
-            rankTxt.text = value.ToString();
+
+            if (rankTxt != null)
+                rankTxt.text = value.ToString();
         }
     }
 
@@ -76,7 +78,7 @@ public abstract class Player : MonoBehaviour
         //if (nameTxt != null)
         if (isBot)
         {
-            name = PlayerPrefs.GetString("name", "Gececi");
+            name = PlayerPrefs.GetString("name", "opponent");
             nameTxt.text = name;
         }
         //nameTxt.text = name[UnityEngine.Random.Range(0, name.Length)];
@@ -86,12 +88,15 @@ public abstract class Player : MonoBehaviour
         scoreCardCount = 0;
         TotalScore = 0;
 
-        int randomRank = UnityEngine.Random.Range(1, 4);
+        int randomRank = UnityEngine.Random.Range(1, 4) * ((UnityEngine.Random.Range(0,1) * 2) - 1);
 
         if (isBot)
         {
             Rank = PlayerPrefs.GetInt("rank", 1);
             Rank += randomRank;
+
+            if(Rank < 1)
+                Rank = 1;
         }
     }
 

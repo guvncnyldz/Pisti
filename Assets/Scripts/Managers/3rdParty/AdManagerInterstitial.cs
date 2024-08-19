@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using GoogleMobileAds.Api;
+//using GoogleMobileAds.Api;
 using System;
 
 public class AdManagerInterstitial : MonoBehaviour
 {
     public static AdManagerInterstitial instance;
 
-    public InterstitialAd interstitial;
+    //public InterstitialAd interstitial;
 
     // string App_ID = "ca-app-pub-2366580648935894~4263881781";
 
@@ -30,6 +30,7 @@ public class AdManagerInterstitial : MonoBehaviour
 
     public void RequestInterstitial()
     {
+        /*
 #if UNITY_ANDROID
         string adUnitId = androidId;
 #elif UNITY_IPHONE
@@ -58,15 +59,17 @@ public class AdManagerInterstitial : MonoBehaviour
 
         // Load the interstitial with the request.
         this.interstitial.LoadAd(request);
+        */
     }
 
     public void ShowInterstitialAD()
     {
-
+/*
         if (this.interstitial.IsLoaded())
         {
             this.interstitial.Show();
         }
+        */
     }
 
 
@@ -79,6 +82,7 @@ public class AdManagerInterstitial : MonoBehaviour
         Debug.LogError("HELALAAAAAAAAAAAAAAAAAAAAAAAL");
     }
 
+/*
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
         RequestInterstitial();
@@ -99,4 +103,5 @@ public class AdManagerInterstitial : MonoBehaviour
     {
         MonoBehaviour.print("HandleAdLeavingApplication event received");
     }
+    */
 }

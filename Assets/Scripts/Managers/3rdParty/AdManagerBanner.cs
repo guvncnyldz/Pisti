@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using GoogleMobileAds.Api;
+//using GoogleMobileAds.Api;
 using System;
 
 public class AdManagerBanner : MonoBehaviour
 {
     public static AdManagerBanner instance;
 
-    private BannerView bannerView;
+    //private BannerView bannerView;
 
     // string App_ID = "ca-app-pub-2366580648935894~4263881781";
 
@@ -31,6 +31,7 @@ public class AdManagerBanner : MonoBehaviour
 
     public void RequestBanner()
     {
+        /*
 #if UNITY_ANDROID
         string adUnitId = androidId;
 #elif UNITY_IPHONE
@@ -53,27 +54,29 @@ public class AdManagerBanner : MonoBehaviour
         this.bannerView.OnAdClosed += this.HandleOnAdClosed;
         // Called when the ad click caused the user to leave the application.
         this.bannerView.OnAdLeavingApplication += this.HandleOnAdLeavingApplication;
-
+*/
         ShowBanner();
     }
 
     private void ShowBanner()
     {
+        /*
         // Create an empty ad request.
         AdRequest request = new AdRequest.Builder().Build();
 
         // Load the banner with the request.
         this.bannerView.LoadAd(request);
+        */
     }
 
     public void HideBanner()
     {
-        this.bannerView.Destroy();
+        //this.bannerView.Destroy();
     }
 
 
     // EVENTS AND DELEGATES
-
+/*
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
         RequestBanner();
@@ -100,6 +103,6 @@ public class AdManagerBanner : MonoBehaviour
     {
         MonoBehaviour.print("HandleAdLeavingApplication event received");
     }
-
+*/
 
 }

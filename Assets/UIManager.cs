@@ -16,7 +16,7 @@ public class UIManager : MonoBehaviour
     public GameObject cardPrefab;
     public GameObject botObject;
 
-    public Transform toplanmaAlani;
+    public Transform centerPlace;
     public Transform backCard;
     public Transform myDeck;
     public Transform hand;
@@ -52,19 +52,19 @@ public class UIManager : MonoBehaviour
         pistiPanel.transform.DOScale(Vector3.zero, .1f).SetDelay(.5f);
     }
 
-//    public IEnumerator AnimationTest()
-//    {
-//        Card test = new Card(2, CardType.Club);
-//        test.imageBack = cardBackSprite;
-//        test.imageFront = cardFrontSprite;
-//
-//        Animation1(test);
-//        yield return new WaitForSeconds(.4f);
-//        Animation2(user, new[] {test, test, test, test});
-//        yield return new WaitForSeconds(.6f);
-//        Animation3(bot);
-//        MyDeckRally();
-//    }
+    //    public IEnumerator AnimationTest()
+    //    {
+    //        Card test = new Card(2, CardType.Club);
+    //        test.imageBack = cardBackSprite;
+    //        test.imageFront = cardFrontSprite;
+    //
+    //        Animation1(test);
+    //        yield return new WaitForSeconds(.4f);
+    //        Animation2(user, new[] {test, test, test, test});
+    //        yield return new WaitForSeconds(.6f);
+    //        Animation3(bot);
+    //        MyDeckRally();
+    //    }
 
     //Başlangıçtaki 4 ortaya 4 ilk oyuncuya 4 diğer oyuncuya kart dağıtma aniamsyonu
     public void Animation1(Card selectedCard)
@@ -73,12 +73,12 @@ public class UIManager : MonoBehaviour
         {
             GameObject card = Instantiate(cardPrefab, backCard.transform.position, Quaternion.identity);
             card.transform.DOScale(new Vector3(.8f, .8f, .8f), 0);
-            card.transform.parent = toplanmaAlani.transform;
+            card.transform.parent = centerPlace.transform;
             card.transform.DORotate(new Vector3(0, 0, Random.Range(30, 180)), 0).SetDelay(.1f * i);
             card.GetComponent<RectTransform>().DOPivot(new Vector2(Random.Range(.4f, .6f), Random.Range(.4f, .6f)), 0)
                 .SetDelay(.1f * i);
             int cardID = i;
-            card.transform.DOMove(toplanmaAlani.transform.position, .1f).SetDelay(.1f * i).OnComplete(() =>
+            card.transform.DOMove(centerPlace.transform.position, .1f).SetDelay(.1f * i).OnComplete(() =>
             {
                 if (cardID == 3)
                 {
@@ -146,7 +146,7 @@ public class UIManager : MonoBehaviour
     public void Animation4(Player player)
     {
         List<Transform> cards = new List<Transform>();
-        foreach (Transform variable in toplanmaAlani.transform)
+        foreach (Transform variable in centerPlace.transform)
         {
             cards.Add(variable);
         }
@@ -171,7 +171,7 @@ public class UIManager : MonoBehaviour
     {
         FindObjectOfType<User>().EndCard(selectedCard);
 
-        selectedCard.transform.parent = toplanmaAlani;
+        selectedCard.transform.parent = centerPlace;
 
 
         selectedCard.GetComponent<RectTransform>()
@@ -179,7 +179,7 @@ public class UIManager : MonoBehaviour
         selectedCard.transform.DORotate(new Vector3(0, 0, Random.Range(30, 180)), 0);
 
 
-        selectedCard.transform.DOMove(toplanmaAlani.transform.position, .2F);
+        selectedCard.transform.DOMove(centerPlace.transform.position, .2F);
         selectedCard.transform.DOScale(new Vector3(1.4f, 1.4f, 1.4f), .1f);
         selectedCard.transform.DOScale(new Vector3(.8f, .8f, .8f), .1f).SetDelay(.1f);
 
@@ -192,7 +192,7 @@ public class UIManager : MonoBehaviour
         AudioManager.instance.CardPlace();
 
         GameObject card = Instantiate(cardPrefab, player.cardPlace.transform.position, Quaternion.identity);
-        card.transform.parent = toplanmaAlani;
+        card.transform.parent = centerPlace;
 
         card.GetComponent<Card>().imageFront = selectedCard.imageFront;
         card.GetComponent<Card>().FlipCard(true);
@@ -200,7 +200,7 @@ public class UIManager : MonoBehaviour
         card.transform.DORotate(new Vector3(0, 0, Random.Range(30, 180)), 0);
 
 
-        card.transform.DOMove(toplanmaAlani.transform.position, .2F);
+        card.transform.DOMove(centerPlace.transform.position, .2F);
         card.transform.DOScale(new Vector3(1.2f, 1.2f, 1.2f), .1f);
         card.transform.DOScale(new Vector3(.8f, .8f, .8f), .1f).SetDelay(.1f);
     }
@@ -222,7 +222,7 @@ public class UIManager : MonoBehaviour
 
     public void RotateHand()
     {
-        myDeck.transform.DORotate(new Vector3(0, 0, myDeck.transform.rotation.z+15f), 1);
+        myDeck.transform.DORotate(new Vector3(0, 0, myDeck.transform.rotation.z + 15f), 1);
     }
 
     public void OpenRestart()
@@ -283,6 +283,14 @@ public class UIManager : MonoBehaviour
         co = StartCoroutine(WaitTourPanel());
     }
 
+    public void End()
+    {
+         background.DOColor(new Color(0, 0, 0, .7f), .2f);
+        background.raycastTarget = true;
+        tourPanel.transform.DOScale(Vector3.one, .2F).SetEase(Ease.Flash);
+        co = StartCoroutine(WaitEndPanel());
+    }
+
     public void Game()
     {
         background.DOColor(new Color(0, 0, 0, .7f), .2f);
@@ -326,6 +334,14 @@ public class UIManager : MonoBehaviour
         //Debug.LogError("Before TOUR BEKLEME");
         yield return new WaitForSeconds(2);
         StartRound();
+        ClassicGame.instance.EndTour();
+        //Debug.LogError("İçerde TOUR BEKLEME");
+    }
+
+    IEnumerator WaitEndPanel()
+    {
+        //Debug.LogError("Before TOUR BEKLEME");
+        yield return new WaitForSeconds(2);
         ClassicGame.instance.EndTour();
         //Debug.LogError("İçerde TOUR BEKLEME");
     }

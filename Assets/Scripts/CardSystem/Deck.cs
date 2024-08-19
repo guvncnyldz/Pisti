@@ -11,12 +11,10 @@ public class Deck : MonoBehaviour
         cards = new List<Card>();
 
         DeckCreator deckCreator = GetComponent<DeckCreator>();
-        cards = deckCreator.CreateDeck();        
+        cards = deckCreator.CreateDeck();
     }
     public void Shuffle()
     {
-        Random random = new Random();
-
         int length = cards.Count;
         for (int i = 0; i < length; i++)
         {
@@ -27,12 +25,36 @@ public class Deck : MonoBehaviour
         }
     }
 
-    public virtual void Deal(CardPlace place, int count)
+    public virtual void Deal(CardPlace place, int count, bool noJoker = false)
     {
+        int cardNumber = 0;
+        int selectedCard = 0;
+        
+        do
+        {
+            if (noJoker && cards[cardNumber].isJoker)
+            {
+                cardNumber++;
+                continue;
+            }
+
+            place.PushCard(cards[cardNumber]);
+            cards.Remove(cards[cardNumber]);
+            cardNumber = 0;
+            selectedCard++;
+        } while (selectedCard < count);
+
+        /*
         for (int i = 0; i < count; i++)
         {
-            place.PushCard(cards[0]);
-            cards.Remove(cards[0]);
-        }
+            if (noJoker && cards[0].isJoker)
+            {
+                i--;
+                continue;
+            }
+
+            place.PushCard(cards[cardNumber]);
+            cards.Remove(cards[cardNumber]);
+        }*/
     }
 }

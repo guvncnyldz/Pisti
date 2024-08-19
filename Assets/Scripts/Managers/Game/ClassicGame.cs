@@ -15,8 +15,7 @@ public class ClassicGame : MonoBehaviour
 
     [SerializeField] private AdManagerInterstitial adManagerInterstitial;
 
-    [Header("Havuz Puanı")]
-    public int havuzPoint = 101;
+    public int targetPoint = 101;
 
     public List<Player> players;
     public List<Card> threeCards;
@@ -57,7 +56,7 @@ public class ClassicGame : MonoBehaviour
         Move();
     }
 
-    public void IlkUcKart()
+    public void FirstThreeCard()
     {
         UIManager.Instance.OpenThreeCardPanel();
     }
@@ -176,7 +175,7 @@ public class ClassicGame : MonoBehaviour
 
     void DealDeckToTable()
     {
-        deck.Deal(turnManager.table, 4);
+        deck.Deal(turnManager.table, 4, true);
 
         for (int i = 0; i < 3; i++)
         {
@@ -235,7 +234,7 @@ public class ClassicGame : MonoBehaviour
 
         foreach (var VARIABLE in players)
         {
-            if (players[i].TotalScore >= havuzPoint)
+            if (players[i].TotalScore >= targetPoint)
                 gameScore[i] = players[i].TotalScore;
             i++;
         }
@@ -328,7 +327,7 @@ public class ClassicGame : MonoBehaviour
                 UIManager.Instance.Game();
 
                 UpdateRank(true);
-
+                UIManager.Instance.End();
                 //GameScene.instance.EndTour(false, true);
             }
 
@@ -362,6 +361,7 @@ public class ClassicGame : MonoBehaviour
                 UIManager.Instance.Game();
 
                 UpdateRank(false);
+                UIManager.Instance.End();
 
                 //GameScene.instance.EndTour(false, false);
             }
@@ -416,7 +416,7 @@ public class ClassicGame : MonoBehaviour
         }
         else
         {
-            GameScene.instance.Restart();
+            GameScene.instance.Exit();
         }
 
     }
@@ -440,10 +440,14 @@ public class ClassicGame : MonoBehaviour
     {
         int currentRank = PlayerPrefs.GetInt("rank", 1);
         if (isWon)
-            PlayerPrefs.SetInt("rank", currentRank + UnityEngine.Random.Range(1, 4));
+            currentRank += UnityEngine.Random.Range(1, 3);
         else
-            PlayerPrefs.SetInt("rank", currentRank - UnityEngine.Random.Range(1, 4));
+            currentRank -= UnityEngine.Random.Range(1, 3);
 
+        if (currentRank < 1)
+            currentRank = 1;
+
+        PlayerPrefs.SetInt("rank", currentRank);
 
         int playerNum;
 

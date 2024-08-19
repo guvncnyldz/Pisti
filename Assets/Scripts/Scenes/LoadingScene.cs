@@ -34,13 +34,13 @@ public class LoadingScene : MonoBehaviour
         index = 0;
 
         loadingText.text = loadingTexts[index];
-        int randomTime = UnityEngine.Random.Range(2, 4);
+        float randomTime = UnityEngine.Random.Range(1, 2f);
         StartCoroutine(LoadingTextChange(randomTime));
     }
 
-    IEnumerator LoadingTextChange(int randomTime)
+    IEnumerator LoadingTextChange(float randomTime)
     {
-        int parse = randomTime * 5;
+        float parse = randomTime * 5;
         for (int i = 0; i < parse; i++)
         {
             yield return new WaitForSeconds(0.2f);
@@ -74,7 +74,7 @@ public class LoadingScene : MonoBehaviour
         }
         else
         {
-            int randomTime2 = UnityEngine.Random.Range(2, 4);
+            float randomTime2 = UnityEngine.Random.Range(1, 2f);
             StartCoroutine(LoadingTextChange(randomTime2));
         }
 

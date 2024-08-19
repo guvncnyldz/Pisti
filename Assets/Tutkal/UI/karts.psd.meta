@@ -165,7 +165,7 @@ TextureImporter:
       213: 6072408354481334490
     second: karts_53
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -182,9 +182,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -193,9 +196,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -216,9 +219,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -230,6 +239,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -242,6 +252,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -254,6 +265,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1403,9 +1441,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      karts_0: -3998237708936341657
+      karts_1: 9045133135949141148
+      karts_10: 7689557474547402747
+      karts_11: -5356124355847148898
+      karts_12: -6309949481228328652
+      karts_13: -187716646190778508
+      karts_14: 5166764474215755394
+      karts_15: -3918646811882960495
+      karts_16: -5894018269010352272
+      karts_17: 1221582079037518480
+      karts_18: 2287058427850297601
+      karts_19: 5170858037285497865
+      karts_2: -564043491988686182
+      karts_20: 8895687182363627739
+      karts_21: 4793458675988424977
+      karts_22: 3610257237586556027
+      karts_23: 2419294714760415507
+      karts_24: 7792851594940943987
+      karts_25: 745288387193816653
+      karts_26: -2471272379319379693
+      karts_27: 3673991115489666825
+      karts_28: 5565777960812468828
+      karts_29: -5753943296092969934
+      karts_3: -3624496496368371582
+      karts_30: 1300121738549140355
+      karts_31: -8430950823177870888
+      karts_32: -777994784430174701
+      karts_33: -4555737926407819397
+      karts_34: 3305619265088934885
+      karts_35: 8124926330418992750
+      karts_36: 1688929629203272842
+      karts_37: -7469508014807733598
+      karts_38: 8317516379469286348
+      karts_39: -4942206370568916988
+      karts_4: 5436785919311319379
+      karts_40: 3445270122285173913
+      karts_41: 274615856211208666
+      karts_42: 4722805524844711322
+      karts_43: -4616114067426928380
+      karts_44: -84559912732583563
+      karts_45: 8417011439795200866
+      karts_46: -1830529680753721298
+      karts_47: -4202186500118362801
+      karts_48: -601387175204992182
+      karts_49: 6300038871492999521
+      karts_5: 909548061707240530
+      karts_50: -8447397528674578300
+      karts_51: 455678655358589191
+      karts_52: -6971800360843666514
+      karts_53: 6072408354481334490
+      karts_6: 2143007629207902794
+      karts_7: 2374473475657365619
+      karts_8: 4567279565544410936
+      karts_9: -385708258895282758
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

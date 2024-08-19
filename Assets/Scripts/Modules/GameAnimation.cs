@@ -78,7 +78,6 @@ public class GameAnimation : MonoBehaviour
 
         if (isEndDeck)
         {
-            Debug.LogError("ISEND DEEEECK");
             UIManager.Instance.deck.SetActive(false);
             isEndDeck = false;
         }
@@ -94,20 +93,18 @@ public class GameAnimation : MonoBehaviour
             Application.LoadLevel((int)Scenes.Game);
 
         cancellation = null;
-        
+
     }
 
     public async Task PushCard(Player player, Card card)
     {
-        Debug.Log(player.name + " Attı " + card.value + " " + card.type);
 
-        await Task.Delay(500);
+        await Task.Delay(UnityEngine.Random.Range(250, 750));
 
     }
 
     public async void TurnWin(TurnManager turnManager)
     {
-        Debug.LogError(turnManager.lastWinner.name + " Yeri aldı ");
 
         await Task.Delay(100);
         AudioManager.instance.Woosh();
@@ -119,7 +116,6 @@ public class GameAnimation : MonoBehaviour
 
     public async void LastWin(TurnManager turnManager)
     {
-        Debug.LogError(turnManager.lastWinner.name + " Son yeri aldı ");
 
         await Task.Delay(200);
         AudioManager.instance.Woosh();
@@ -132,7 +128,6 @@ public class GameAnimation : MonoBehaviour
     {
         AudioManager.instance.Pisti();
 
-        Debug.LogError(turnManager.lastWinner.name + " Pisti ");
         await Task.Delay(500);
 
         UIManager.Instance.Animation4(turnManager.lastWinner);
