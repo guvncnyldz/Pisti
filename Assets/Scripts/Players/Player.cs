@@ -109,7 +109,6 @@ public abstract class Player : MonoBehaviour
 
     public void ResetScore()
     {
-        TotalScore = 0;
     }
 
 

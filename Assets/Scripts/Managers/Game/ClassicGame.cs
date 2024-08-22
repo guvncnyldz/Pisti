@@ -39,12 +39,8 @@ public class ClassicGame : MonoBehaviour
     {
         gameCount = PlayerPrefs.GetInt("GameCount", 0);
 
-        //adManagerInterstitial = FindObjectOfType<AdManagerInterstitial>();
-        //adManagerBanner = FindObjectOfType<AdManagerBanner>();
-
-        //adManagerInterstitial.RequestInterstitial();
-        AdManagerInterstitial.instance.RequestInterstitial();
-        AdManagerBanner.instance.HideBanner();
+        AdManager.Instance.adManagerBanner.ActivateBanner(false);
+        new EventLevelStart().SendEvent();
 
         deck = FindObjectOfType<Deck>();
         turnManager = new TurnManager(players);
@@ -100,27 +96,10 @@ public class ClassicGame : MonoBehaviour
     void Round()
     {
         CalculateTotalScore();
-        Player winner = AnyPlayerWin();
-
-        if (turnManager.totalTurn > 0)
-        {
-            //adManagerInterstitial.interstitial.Show();
-            //Debug.LogError("DAFUQ IS THIS");
-        }
 
         if (turn == 1)
         {
             FirstRound();
-        }
-        if (winner)
-        {
-            Reklam();
-            Win(winner);
-        }
-        else
-        {
-            Reklam();
-            //StartGame();
         }
     }
 
@@ -133,27 +112,8 @@ public class ClassicGame : MonoBehaviour
         {
             gameCount = 0;
             PlayerPrefs.SetInt("GameCount", gameCount);
-            AdManagerInterstitial.instance.ShowInterstitialAD();
             //adManagerInterstitial.ShowInterstitialAD();
         }
-    }
-
-    public Player AnyPlayerWin()
-    {
-        Player turnWiner = players[0];
-
-        foreach (Player player in players)
-        {
-            if (player.TotalScore > turnWiner.TotalScore)
-                turnWiner = player;
-        }
-
-        if (turnWiner.TotalScore > maxScore)
-        {
-            return turnWiner;
-        }
-
-        return null;
     }
 
     public void StartGame()
@@ -378,7 +338,7 @@ public class ClassicGame : MonoBehaviour
             //Debug.LogError("ROUND KAZANDIN");
             AudioManager.instance.ShortApllause();
 
-            UIManager.Instance.roundTxt.text = turn + ". Deste";
+            UIManager.Instance.roundTxt.SetLocalizedText("round_number", turn.ToString());
             turn++;
             GameScene.instance.OpenRoundPanel();
         }
@@ -388,7 +348,7 @@ public class ClassicGame : MonoBehaviour
             //Debug.LogError("ROUND KAYBETTİN");
             AudioManager.instance.LoseRound();
 
-            UIManager.Instance.roundTxt.text = turn + ". Deste";
+            UIManager.Instance.roundTxt.SetLocalizedText("round_number", turn.ToString());
             turn++;
             GameScene.instance.OpenRoundPanel();
         }
@@ -397,7 +357,7 @@ public class ClassicGame : MonoBehaviour
 
     void FirstRound()
     {
-        UIManager.Instance.roundTxt.text = turn + ". Deste";
+        UIManager.Instance.roundTxt.SetLocalizedText("round_number", turn.ToString());
         turn++;
         GameScene.instance.OpenRoundPanel();
     }
@@ -416,7 +376,8 @@ public class ClassicGame : MonoBehaviour
         }
         else
         {
-            GameScene.instance.Exit();
+            new EventLevelComplete().SendEvent();
+            AdManager.Instance.adManagerInterstitial.ShowInterstitialAD("Level_Complete", GameScene.instance.Exit, GameScene.instance.Exit);
         }
 
     }
@@ -428,12 +389,6 @@ public class ClassicGame : MonoBehaviour
             if (card.isOpen)
                 Debug.Log(card.value + " " + card.type);
         }
-    }
-
-    void Win(Player player)
-    {
-        //Debug.LogError(player.name + " oyunu kazandı");
-        //StartGame();
     }
 
     void UpdateRank(bool isWon)

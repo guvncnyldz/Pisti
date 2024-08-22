@@ -4,12 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using TMPro;
+using System.Net.NetworkInformation;
+using System.Linq;
 
 public class MainMenuControl : MonoBehaviour
 {
 
     public GameObject yardimPanel, sayfa1, sayfa2;
     public Image previousButton, nextButton;
+
+    public void ShowAd()
+    {
+        AdManager.Instance.adManagerInterstitial.ShowInterstitialAD("test", null, null);
+    }
+    void Start()
+    {
+        AdManager.Instance.adManagerBanner.ActivateBanner(true);
+    }
 
     public void OpenHelpPanel()
     {

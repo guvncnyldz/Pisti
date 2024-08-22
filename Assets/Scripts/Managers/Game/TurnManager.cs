@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using UnityEngine;
 
 public class TurnManager
 {
@@ -23,7 +24,7 @@ public class TurnManager
         table = new Table();
         biggestCard = new Card(0, 0);
 
-        startTurn = 1;
+        startTurn = Random.Range(0,1);
         currentTurn = startTurn;
     }
 

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba49d1dd0d484de4395dfbb5af0d5f62, type: 3}
+  m_Name: Turkish
+  m_EditorClassIdentifier: 
+  systemLanguage: 37
+  localizationPairs:
+  - Key: round_number
+    Value: '{0}. Deste'
+  - Key: username_placeholder
+    Value: "Kullan\u0131c\u0131 Ad\u0131n\u0131z\u0131 Girin"
+  - Key: scoring
+    Value: "Puanlama\n\n\n  \tPisti - 10 Puan\n\n\n   \tFazla Kart - 3 Puan\n\n\n  
+      \t10\u2666 - 3 Puan\n\n\n   \t2\u2663 - 2 Puan\n\n\n   \tJ - 1 Puan\n\n\n  
+      \tA - 1 Puan "
+  - Key: game_rules
+    Value: "-Yere en son at\u0131lan karta e\u015Fde\u011Fer kart at\u0131l\u0131rsa
+      yerdeki kartlar\u0131 oyuncu al\u0131r. \n-Yer bo\u015F de\u011Filse at\u0131lan
+      J kart\u0131 t\xFCm yeri al\u0131r \n-Yerde tek kart varsa ve buna e\u015Fde\u011Fer
+      kart at\u0131l\u0131rsa 'P\u0130ST\u0130' olur"
+  - Key: round_point_rule
+    Value: "Turdaki puanlar\u0131n. 21'e ula\u015Fan turu kazan\u0131r. "
+  - Key: round_won_rule
+    Value: "Kazand\u0131\u011F\u0131 turlar. 2'ye ula\u015Fan oyunu kazan\u0131r."
+  - Key: total_point_rule
+    Value: Toplam Puan
+  - Key: waiting_for_player
+    Value: Oyuncu Bekleniyor
+  - Key: player_joining
+    Value: "Oyuncu Kat\u0131l\u0131yor"
+  - Key: joined_the_game
+    Value: "{0} Oyuna Kat\u0131ld\u0131"
+  - Key: loading
+    Value: "Y\xFCkleniyor"
+  - Key: you_lose_game
+    Value: KAYBETTIN
+  - Key: you_lose_turn
+    Value: Turu Kaybettin
+  - Key: you_win_game
+    Value: KAZANDIN
+  - Key: you_win_turn
+    Value: "Turu Kazand\u0131n"
+  - Key: username_text
+    Value: <u>KULLANICI ADI</u>

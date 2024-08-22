@@ -33,7 +33,7 @@ public class LoadingScene : MonoBehaviour
     {
         index = 0;
 
-        loadingText.text = loadingTexts[index];
+        loadingText.text = LocalizationUtil.GetLocalizedText(loadingTexts[index]);
         float randomTime = UnityEngine.Random.Range(1, 2f);
         StartCoroutine(LoadingTextChange(randomTime));
     }
@@ -47,7 +47,7 @@ public class LoadingScene : MonoBehaviour
 
             if (index == 2)
             {
-                loadingText.text = botName + " " + loadingTexts[index];
+                loadingText.text = LocalizationUtil.GetLocalizedText(loadingTexts[index], botName);
             }
             else
             {
@@ -55,7 +55,7 @@ public class LoadingScene : MonoBehaviour
 
                 if (i % 4 == 0)
                 {
-                    loadingText.text = loadingTexts[index];
+                    loadingText.text = LocalizationUtil.GetLocalizedText(loadingTexts[index]);
                 }
             }
         }
@@ -64,7 +64,7 @@ public class LoadingScene : MonoBehaviour
 
         if (index == 3)
         {
-            loadingText.text = loadingTexts[index];
+            loadingText.text = LocalizationUtil.GetLocalizedText(loadingTexts[index]);
         }
 
         if (index > 3)

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014326287224",
+    "project_id": "pisti-ee6b6",
+    "storage_bucket": "pisti-ee6b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014326287224:android:9574a872511235bc7fc68d",
+        "android_client_info": {
+          "package_name": "com.ceruven.pisti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABGTIoDlRAaesGe96W2QICzscxEF0tZUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

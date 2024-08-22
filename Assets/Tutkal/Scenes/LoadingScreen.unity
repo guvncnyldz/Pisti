@@ -439,10 +439,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingTexts:
-  - Waiting for Player
-  - Player Joining
-  - Joined the Game
-  - Loading
+  - waiting_for_player
+  - player_joining
+  - joined_the_game
+  - loading
   botNames:
   - TestBot
   botName: 
@@ -927,7 +927,6 @@ GameObject:
   - component: {fileID: 1498685714}
   - component: {fileID: 1498685713}
   - component: {fileID: 1498685716}
-  - component: {fileID: 1498685717}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1022,23 +1021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioList: {fileID: 11400000, guid: 420fe722f61cd8d4e9ba9724eaaf0e39, type: 2}
---- !u!114 &1498685717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498685712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66319057270a1aa4fbf0c2f43c7b19b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yardimPanel: {fileID: 0}
-  sayfa1: {fileID: 0}
-  sayfa2: {fileID: 0}
-  previousButton: {fileID: 0}
-  nextButton: {fileID: 0}
 --- !u!1 &1757365303
 GameObject:
   m_ObjectHideFlags: 0

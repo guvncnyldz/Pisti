@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba49d1dd0d484de4395dfbb5af0d5f62, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  systemLanguage: 10
+  localizationPairs:
+  - Key: round_number
+    Value: Round {0}
+  - Key: username_placeholder
+    Value: Enter Your Username
+  - Key: scoring
+    Value: "Scoring\n\n\n  \tPisti - 10 Points\n\n\n   \tMore Cards - 3 Points\n\n\n  
+      \t10\u2666 - 3 Points\n\n\n   \t2\u2663 - 2 Points\n\n\n   \tJ - 1 Point\n\n\n  
+      \tA - 1 Point"
+  - Key: game_rules
+    Value: "-Playing a matching card takes all cards on the table. \n-A Jack takes
+      all cards if the table isn't empty. \n-Playing a matching card on a single
+      card is a 'PISTI'."
+  - Key: round_point_rule
+    Value: Points in the round. The round is won by reaching 21
+  - Key: round_won_rule
+    Value: Round won. The game is won by reaching 2
+  - Key: total_point_rule
+    Value: Total Point
+  - Key: waiting_for_player
+    Value: Waiting For Player
+  - Key: player_joining
+    Value: Player Joining
+  - Key: joined_the_game
+    Value: '{0} Joined The Game'
+  - Key: loading
+    Value: Loading
+  - Key: you_lose_game
+    Value: YOU LOST
+  - Key: you_lose_turn
+    Value: Lost The Round
+  - Key: you_win_game
+    Value: YOU WON
+  - Key: you_win_turn
+    Value: Won The Round
+  - Key: username_text
+    Value: <u>USERNAME</u>

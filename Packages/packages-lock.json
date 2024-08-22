@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.google.external-dependency-manager": {
+      "version": "1.2.182",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -14,15 +21,6 @@
         "com.unity.modules.tilemap": "1.0.0",
         "com.unity.modules.uielements": "1.0.0"
       }
-    },
-    "com.unity.ads": {
-      "version": "4.4.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
@@ -41,13 +39,6 @@
         "com.unity.services.analytics": "1.0.4",
         "com.unity.ugui": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.collab-proxy": {
-      "version": "2.4.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -84,22 +75,9 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.purchasing": {
-      "version": "4.11.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.services.core": "1.8.2"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.services.analytics": {
@@ -115,7 +93,7 @@
     },
     "com.unity.services.core": {
       "version": "1.12.5",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.unitywebrequest": "1.0.0",
@@ -136,7 +114,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {

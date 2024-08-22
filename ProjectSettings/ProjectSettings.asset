@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: EkmekkApp
+  companyName: Ceruven
   productName: Pisti
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -141,7 +141,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 3.0.1
+  bundleVersion: 1.0.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -163,7 +163,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.EkmekkApp.Pisti
+    Android: com.ceruven.pisti
     Standalone: com.Company.ProductName
   buildNumber:
     Standalone: 0
@@ -172,8 +172,8 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 14
-  AndroidMinSdkVersion: 22
-  AndroidTargetSdkVersion: 30
+  AndroidMinSdkVersion: 24
+  AndroidTargetSdkVersion: 34
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
@@ -256,17 +256,17 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
-  useCustomMainGradleTemplate: 0
+  useCustomMainGradleTemplate: 1
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
-  useCustomGradleSettingsTemplate: 0
+  useCustomGradlePropertiesTemplate: 1
+  useCustomGradleSettingsTemplate: 1
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/guvnc/Desktop/Projects/keystores/ekmekkapp.keystore
+  AndroidKeystoreName: '{inproject}: Assets/Editor/Keystore/pisti.keystore'
   AndroidKeyaliasName: pisti
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
@@ -802,7 +802,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: LEVELPLAY_DEPENDENCIES_INSTALLED
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -895,7 +896,9 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Purchasing: 0
     UNet: 1
+    Unity Ads: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -915,11 +918,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: bf740db6-42d8-439a-b674-a1746d37a38c
+  cloudProjectId: 5322c659-79e3-48b3-b949-39caac2360a7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Pisti
-  organizationId: ekmekk
+  organizationId: guvncnyldz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   hmiLoadingImage: {fileID: 0}
