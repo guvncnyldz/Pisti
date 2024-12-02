@@ -30,6 +30,7 @@ public class ClassicGame : MonoBehaviour
 
     private bool isGameStart;
     private bool endGame;
+    private bool isResultWon;
 
     private int maxScore = 30;
     private int gameCount;  // Reklam için kaç oyun kaldığı
@@ -277,6 +278,7 @@ public class ClassicGame : MonoBehaviour
             else
             {
                 endGame = true;
+                isResultWon = true;
                 // OYUN KAZANMA PANELİ
                 //Debug.LogError("Oyunu Kazandın");
                 AudioManager.instance.ShortApllause();
@@ -310,6 +312,7 @@ public class ClassicGame : MonoBehaviour
             else
             {
                 endGame = true;
+                isResultWon = false;
                 // OYUN KAYBETME PANELİ
                 //Debug.LogError("Oyunu KAYBETTİN");
                 AudioManager.instance.LoseRound();
@@ -376,7 +379,7 @@ public class ClassicGame : MonoBehaviour
         }
         else
         {
-            new EventLevelComplete().SendEvent();
+            new EventLevelComplete(isResultWon ? "won" : "lost").SendEvent();
             AdManager.Instance.adManagerInterstitial.ShowInterstitialAD("Level_Complete", GameScene.instance.Exit, GameScene.instance.Exit);
         }
 

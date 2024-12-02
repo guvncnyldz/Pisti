@@ -297,8 +297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localizationDataSOList:
-  - {fileID: 11400000, guid: be9dba7c7961f5347829637047abe61f, type: 2}
   - {fileID: 11400000, guid: f0db80687a1514b4d91bfcf0e2dd3e31, type: 2}
+  - {fileID: 11400000, guid: be9dba7c7961f5347829637047abe61f, type: 2}
 --- !u!4 &64448072
 Transform:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public static class EventManager
         string parameterLog = $"[{eventName}]";
         foreach (KeyValuePair<string, string> parameter in parameters)
         {
-            parameterLog += $"{parameter.Key}-{parameter.Value}\n";
+            parameterLog += $"{parameter.Key} - {parameter.Value}\n";
         }
 
         Debug.Log($"<color=green>{parameterLog}</color>");

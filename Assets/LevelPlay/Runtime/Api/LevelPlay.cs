@@ -9,12 +9,22 @@ namespace com.unity3d.mediation
     /// </summary>
     public class LevelPlay
     {
+        /// <summary>
+        /// Event handler for the SDK initialization success event.
+        /// Ensures that the same handler cannot be added multiple times.
+        /// </summary>
         static event Action<LevelPlayConfiguration> InitSuccessReceived;
-        static event Action<LevelPlayInitError> OnInitFailedReceived;
 
         /// <summary>
+        /// Adds or removes event handlers for the SDK initialization failure event.
+        /// Ensures that the same handler cannot be added multiple times.
+        /// </summary>
+        static event Action<LevelPlayInitError> OnInitFailedReceived;
+
+        [Obsolete("This event will be removed in version 9.0.0. Please use InitSuccessReceived instead.")]
+        /// <summary>
         /// Adds or removes event handlers for the SDK initialization success event.
-        /// Ensures that the same handler cannot be added multiple times.s
+        /// Ensures that the same handler cannot be added multiple times.
         /// </summary>
         public static event Action<LevelPlayConfiguration> OnInitSuccess
         {
@@ -35,6 +45,7 @@ namespace com.unity3d.mediation
             }
         }
 
+        [Obsolete("This event will be removed in version 9.0.0. Please use OnInitFailedReceived instead.")]
         /// <summary>
         /// Adds or removes event handlers for the SDK initialization failure event.
         /// Ensures that the same handler cannot be added multiple times.
@@ -97,6 +108,21 @@ namespace com.unity3d.mediation
 #elif UNITY_IOS && !UNITY_EDITOR
             IosLevelPlaySdk.Initialize(appKey, userId, adFormats);
 #endif
+        }
+
+        /// <summary>
+        /// When setting your PauseGame status to true, all your Unity 3D game activities will be paused (Except the ad callbacks).
+        /// The game activity will be resumed automatically when the ad is closed.
+        /// You should call the setPauseGame once in your session, before or after initializing the ironSource SDK,
+        /// as it affects all ads (Rewarded Video and Interstitial ads) in the session.
+        /// </summary>
+        /// <param name="pause">Is the game paused</param>
+        public static void SetPauseGame(bool pause)
+        {
+#if UNITY_IOS && !UNITY_EDITOR
+            IosLevelPlaySdk.SetPauseGame(pause);
+#endif
+            IronSource.Agent.SetPauseGame(pause);
         }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using com.unity3d.mediation;
 using UnityEngine;
 
 public class AdManager : MonoBehaviour
@@ -26,8 +27,9 @@ public class AdManager : MonoBehaviour
 
         IronSource.Agent.validateIntegration();
 
-        IronSource.Agent.init(addKey, IronSourceAdUnits.INTERSTITIAL);
-        IronSource.Agent.init(addKey, IronSourceAdUnits.BANNER);
+        //IronSource.Agent.setMetaData("is_test_suite", "enable");
+
+        IronSource.Agent.init(addKey, IronSourceAdUnits.INTERSTITIAL, LevelPlayAdFormat.BANNER.ToString());
 
         IronSourceEvents.onSdkInitializationCompletedEvent += SdkInitializationCompletedEvent;
 
@@ -41,6 +43,8 @@ public class AdManager : MonoBehaviour
     {
         adManagerInterstitial.OnInitializationCompleted();
         adManagerBanner.OnInitializationCompleted();
+
+        //IronSource.Agent.launchTestSuite();
     }
     void OnApplicationPause(bool isPaused)
     {

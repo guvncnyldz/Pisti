@@ -9,7 +9,7 @@ public abstract class EventBase
 
     public EventBase()
     {
-
+        parameters = new Dictionary<string, string>();
     }
 
     public void SendEvent()

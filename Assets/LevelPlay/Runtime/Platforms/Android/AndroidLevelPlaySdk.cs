@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace com.unity3d.mediation
 {
+    [Obsolete("This class will be deprecated in version 9.0.0. Please use LevelPlaySdk instead.")]
     public class AndroidLevelPlaySdk : IUnityLevelPlayInitListener
     {
         private static AndroidJavaObject _levelPlayBridge;

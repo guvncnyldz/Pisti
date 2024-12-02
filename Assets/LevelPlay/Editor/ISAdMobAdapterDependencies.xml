@@ -1,23 +1,18 @@
 <dependencies>
-    <unityversion>4.3.63.0</unityversion>
+  <unityversion>4.3.68.0</unityversion>
   <androidPackages>
-    <androidPackage spec="com.google.android.gms:play-services-ads:23.2.0">
+    <androidPackage spec="com.google.android.gms:play-services-ads:23.5.0">
       <repositories>
         <repository>https://maven.google.com/</repository>
       </repositories>
     </androidPackage>
   </androidPackages>
-
-    <androidPackages>
-    <androidPackage spec="com.ironsource.adapters:admobadapter:4.3.44">
-      <repositories>
-          <repository>https://android-sdk.is.com/</repository>
-      </repositories>
+  <androidPackages>
+    <androidPackage spec="com.unity3d.ads-mediation:admob-adapter:4.3.47">
     </androidPackage>
   </androidPackages>
-
   <iosPods>
-    <iosPod name="IronSourceAdMobAdapter" version="4.3.56.0">
+    <iosPod name="IronSourceAdMobAdapter" version="4.3.59.0">
       <sources>
         <source>https://github.com/CocoaPods/Specs</source>
       </sources>

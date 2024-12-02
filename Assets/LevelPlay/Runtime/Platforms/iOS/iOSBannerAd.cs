@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace com.unity3d.mediation
 {
+    [Obsolete("This class will be deprecated in version 9.0.0. Please use ILevelPlayBannerAd instead.")]
     public class iOSBannerAd : IosNativeObject, IPlatformBannerAd
     {
         public event EventHandler<LevelPlayAdInfo> OnAdLoaded;
@@ -59,7 +60,9 @@ namespace com.unity3d.mediation
             if (DisplayOnLoad)
             {
                 ShowAd();
-            } else {
+            }
+            else
+            {
                 HideAd();
             }
         }
@@ -70,7 +73,6 @@ namespace com.unity3d.mediation
             {
                 BannerAdDestroy(NativePtr);
                 NativePtr = IntPtr.Zero;
-
             }
             base.Dispose();
         }
@@ -85,6 +87,7 @@ namespace com.unity3d.mediation
         {
             BannerAdViewShow(NativePtr);
         }
+
         public void HideAd()
         {
             BannerAdViewHide(NativePtr);
@@ -159,7 +162,6 @@ namespace com.unity3d.mediation
 
         [DllImport("__Internal", EntryPoint = "LPMBannerAdViewResumeAutoRefresh")]
         static extern void BannerAdResumeAutoRefresh(IntPtr bannerAdView);
-
     }
 }
 #endif

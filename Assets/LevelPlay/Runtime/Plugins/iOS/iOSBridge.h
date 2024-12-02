@@ -12,9 +12,19 @@
 #import "InterstitialLevelPlayCallbacksWrapper.h"
 #import "BannerLevelPlayCallbacksWrapper.h"
 
-static NSString *  UnityGitHash = @"2f39fd0";
+static NSString *  UnityGitHash = @"603786b";
 typedef void (*ISUnityBackgroundCallback)(const char* args);
 typedef void (*ISUnityPauseGame)(const bool gamePause);
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+    void UnityPause(int pause);
+    extern void UnitySendMessage( const char *className, const char *methodName, const char *param );
+    
+#ifdef __cplusplus
+}
+#endif
 
 @interface iOSBridge : NSObject<ISSegmentDelegate,
 								ISImpressionDataDelegate,
